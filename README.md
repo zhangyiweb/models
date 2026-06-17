@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/{用户名}/{仓库名}/{分支}/{文件路径
 
 本仓库提供了在线转换工具，粘贴 GitHub 页面链接即可自动转为 Raw 直链：
 
-👉 **[打开转换工具](https://zhangyiweb.github.io/models/convert.html)**
+👉 **[打开转换工具](https://cdn.jsdelivr.net/gh/zhangyiweb/models@main/convert.html)**
 
 也可以直接双击本地文件 [`convert.html`](./convert.html) 在浏览器中使用。
 
@@ -36,7 +36,7 @@ https://raw.githubusercontent.com/{用户名}/{仓库名}/{分支}/{文件路径
 | --- | --- |
 | `https://github.com/zhangyiweb/models/blob/main/猴头/houtou.glb` | `https://raw.githubusercontent.com/zhangyiweb/models/main/猴头/houtou.glb` |
 
-> 若在线工具无法访问，请在 GitHub 仓库 **Settings → Pages** 中启用 Pages（Source 选 `main` 分支），即可通过 `https://zhangyiweb.github.io/models/convert.html` 访问。
+> 如需使用 `zhangyiweb.github.io` 域名，请前往仓库 **Settings → Pages**，将 Source 设为 **GitHub Actions**，推送后自动部署，访问地址为 `https://zhangyiweb.github.io/models/convert.html`。
 
 ### 示例
 
