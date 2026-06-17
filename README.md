@@ -22,22 +22,6 @@ https://raw.githubusercontent.com/{用户名}/{仓库名}/{分支}/{文件路径
 
 即：**去掉 `github.com` 中的 `/blob`，并把域名改为 `raw.githubusercontent.com`**。
 
-### 链接自动转换
-
-本仓库提供了在线转换工具，粘贴 GitHub 页面链接即可自动转为 Raw 直链：
-
-👉 **[打开转换工具](https://cdn.jsdelivr.net/gh/zhangyiweb/models@main/convert.html)**
-
-也可以直接双击本地文件 [`convert.html`](./convert.html) 在浏览器中使用。
-
-**使用示例：**
-
-| 输入（GitHub 页面链接） | 输出（Raw 直链） |
-| --- | --- |
-| `https://github.com/zhangyiweb/models/blob/main/猴头/houtou.glb` | `https://raw.githubusercontent.com/zhangyiweb/models/main/猴头/houtou.glb` |
-
-> 如需使用 `zhangyiweb.github.io` 域名，请前往仓库 **Settings → Pages**，将 Source 设为 **GitHub Actions**，推送后自动部署，访问地址为 `https://zhangyiweb.github.io/models/convert.html`。
-
 ### 示例
 
 封面图：
